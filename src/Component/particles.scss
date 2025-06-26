@@ -1,0 +1,50 @@
+// @for $i from 1 through 60 {
+// 	@keyframes particle-animation-#{$i} {
+// 		100% {
+// 			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+// 		}
+// 	}
+	
+// 	.particle:nth-child(#{$i}){
+// 		animation: particle-animation-#{$i} 60s infinite;
+// 		$size: random(5) + 15 + px;
+// 		opacity: random(100)/10;
+// 		height: $size;
+// 		width: $size;
+// 		animation-delay: -$i * .7s;
+// 		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+// 		background: hsl(random(360), 70%, 50%);
+// 	}
+// }
+
+@for $i from 1 through 60 {
+    @keyframes particle-animation-#{$i} {
+      100% {
+        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+      }
+    }
+    
+    $colors: #25A1E1, #B3D656, #EF5C28; // Specify the colors to choose from
+    
+    $color: nth($colors, random(length($colors))); // Randomly select one of the specified colors
+    
+    .particle:nth-child(#{$i}) {
+      animation: particle-animation-#{$i} 60s infinite;
+      $size: random(5) + 15 + px;
+      opacity: random(100) / 10;
+      height: $size;
+      width: $size;
+      animation-delay: -$i * .7s;
+      transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+      background: $color;
+      transition: transform 0.3s ease; // Add transition for smooth animation
+      cursor: pointer; // Change cursor to pointer when hovering
+    }
+    
+    .particle.clicked:nth-child(#{$i}) {
+      animation-play-state: paused; // Pause animation when particle has clicked class
+    }
+  }
+  
+  
+  
