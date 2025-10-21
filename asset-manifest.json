@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bc2ca408.css",
+    "main.js": "./static/js/main.fde2a53b.js",
+    "static/js/453.1cac83cd.chunk.js": "./static/js/453.1cac83cd.chunk.js",
+    "static/media/header.mp4": "./static/media/header.d310a7f79a83e98771d9.mp4",
+    "static/media/img-1.jpg": "./static/media/img-1.cd9c8e267c51a4d55998.jpg",
+    "static/media/img-2.jpg": "./static/media/img-2.44fedb76a0029311ed0b.jpg",
+    "static/media/people.jpg": "./static/media/people.5748fafb9a77934ca173.jpg",
+    "static/media/Topbrands.png": "./static/media/Topbrands.38140133ce454f6b18b3.png",
+    "static/media/image.png": "./static/media/image.ed57fa29f2e608b4dbf1.png",
+    "static/media/image1.png": "./static/media/image1.01fd353ebbd57720ce9d.png",
+    "static/media/image16.png": "./static/media/image16.2a35471edd1c8d1b9573.png",
+    "static/media/image2.png": "./static/media/image2.accbc3a8139a41e62cd0.png",
+    "static/media/image3.png": "./static/media/image3.0c1238c78b45f23ab344.png",
+    "static/media/image4.png": "./static/media/image4.ef1ac694bc58173136b5.png",
+    "static/media/image5.png": "./static/media/image5.fb306e2161c64286c961.png",
+    "static/media/merce.png": "./static/media/merce.8d44fd843998669b88a0.png",
+    "static/media/image6.png": "./static/media/image6.702ebfd030ffe3e4f91e.png",
+    "static/media/imagepink.png": "./static/media/imagepink.faf331e058a7e8aa4dbb.png",
+    "static/media/bkblue.png": "./static/media/bkblue.ea77e2d9941c483787d8.png",
+    "static/media/cloudsters-cloudsters-400.ttf": "./static/media/cloudsters-cloudsters-400.d9293bcd540d93b1577f.ttf",
+    "static/media/bigo.png": "./static/media/bigo.29d39d57d202f3b862ff.png",
+    "index.html": "./index.html",
+    "main.bc2ca408.css.map": "./static/css/main.bc2ca408.css.map",
+    "main.fde2a53b.js.map": "./static/js/main.fde2a53b.js.map",
+    "453.1cac83cd.chunk.js.map": "./static/js/453.1cac83cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc2ca408.css",
+    "static/js/main.fde2a53b.js"
+  ]
+}
